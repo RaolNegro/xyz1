@@ -6,4 +6,6 @@ ENV CPU_CORES=2
 ENV DISK_SIZE=32G
 ENV KVM=N
 
+RUN mkdir -p /storage
+
 EXPOSE 8006
